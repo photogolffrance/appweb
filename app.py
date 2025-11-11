@@ -24,12 +24,7 @@ def charger():
 def sauvegarder(data):
     with open(SAVE_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
-# Conversion de sécurité : s'assurer que "disponible" et "choix_capitaine" sont bien des booléens
-for j in joueurs:
-    if isinstance(j["disponible"], str):
-        j["disponible"] = j["disponible"].lower() == "true"
-    if isinstance(j["choix_capitaine"], str):
-        j["choix_capitaine"] = j["choix_capitaine"].lower() == "true"
+
 
 # ---------- sélection optimisée ----------
 def calculer_selection(joueurs):
@@ -150,5 +145,6 @@ if st.button("🗑️ Réinitialiser la liste"):
     joueurs = []
     sauvegarder(joueurs)
     st.rerun()
+
 
 
