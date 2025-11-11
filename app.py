@@ -97,7 +97,7 @@ with st.expander("➕ Ajouter un joueur"):
         else:
             joueurs.append({"nom": nom.strip(), "index": float(index), "dispo": dispo, "capitaine": capitaine})
             sauvegarder(joueurs)
-            st.experimental_rerun()
+            st.rerun()
 
 st.subheader("📋 Liste des joueurs")
 
@@ -143,4 +143,5 @@ if st.button("🔍 Calculer la meilleure équipe"):
 if st.button("🗑️ Réinitialiser la liste"):
     joueurs = []
     sauvegarder(joueurs)
-    st.experimental_rerun()
+    st.rerun()
+
