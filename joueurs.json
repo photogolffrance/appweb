@@ -9,7 +9,7 @@
     {"nom": "Rodolphe TONNEL", "index": 6.0, "disponible": true, "choix_capitaine": false},
     {"nom": "Geoffroy TRIART", "index": 6.8, "disponible": true, "choix_capitaine": false},
     {"nom": "Christophe JAMMOT", "index": 7.5, "disponible": true, "choix_capitaine": false},
-    {"nom": "Pierre BRUNAUD index à confirmer", "index": 7.0, "disponible": true, "choix_capitaine": false},
+    {"nom": "Pierre BRUNAUD", "index": 7.5, "disponible": true, "choix_capitaine": false},
     {"nom": "Emmanuel JANODET", "index": 8.1, "disponible": true, "choix_capitaine": false},
     {"nom": "Gregoire TONNEL", "index": 8.2, "disponible": true, "choix_capitaine": false},
     {"nom": "Michel REGNIER", "index": 8.4, "disponible": true, "choix_capitaine": false},
@@ -80,5 +80,6 @@
     {"nom": "Sebastien PASQUER", "index": 19.8, "disponible": true, "choix_capitaine": false},
     {"nom": "Jerome HARANT", "index": 20.0, "disponible": true, "choix_capitaine": false}
 ]
+
 
 
